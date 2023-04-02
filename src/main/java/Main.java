@@ -1,6 +1,7 @@
+import java.util.ArrayList;
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Chuj");
+        System.out.println("chuj");
         double x=0;
         float y=0;
         int z=0;
@@ -8,11 +9,11 @@ public class Main {
         char b=0;
         String c="chuj";
         Integer d=0;
-        System.out.println(z);
-        BogdanGod bogdan = new BogdanGod();
-        bogdan.setAge(69);
-        System.out.println(bogdan + "\n" + bogdan.getAge());
-        Ascii ascii = new Ascii();
-        ascii.licz();
+        System.out.println(x);
+        KacperDemon kacper = new KacperDemon();
+        kacper.setAge(20);
+        System.out.println(kacper + "\n" + kacper.getAge());
+        Ascii zmienna = new Ascii();
+        zmienna.licz();
     }
 }
